@@ -1,0 +1,71 @@
+.registration-container {
+  text-align: center;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f1e2d2;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #604020;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #604020;
+}
+
+.registration-form input,
+.registration-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #86785f;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  color: #333333;
+}
+
+.password-rules {
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  color: #666;
+  text-align: left;
+}
+
+.registration-form button {
+  background-color: #FFA000;
+  color: #604020;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.message {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: green;
+  margin-bottom: 10px;
+}
